@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>F</title>
+        <author>John Altenstaig</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-11-01">November 01, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Scholastic Commentaries and Texts Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="L" n="lyon1579">Lyon 1579</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-11-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="jav-F">
+  			<head>F</head>
+  			<div>
+  				<head>Fides in scriptura</head>
+  				<p><lb ed="#L"/><pc ana="#pilcrow"/>Fides in scriptura variis modis accipitur, ut &amp; ha<lb ed="#L"/>et 
+  					<ref><name ref="#Bonaventure">sanctus Bonaventurea</name> distinctione xxiii libri tert<lb ed="#L"/>ii 
+  					circa textum. &amp; <name ref="GabrielBiel">Gabriel</name> eadem distinctione 
+  						<lb ed="#L"/>quaestione ii</ref>. Et <ref><name>Gerson</name> parte prima, sermone de erro<lb ed="#L"/>ribus 
+  						contra fidem, &amp; mores circa praeceptum: Non 
+  						<lb ed="#L"/>occides</ref>. Et <ref><name ref="#AlexanderOfHales">Alexander</name> parte tertia, quaestione lxxiiii, 
+  						<lb ed="#L"/>membr. i. ponit xi fidei acceptiones</ref>. Nam fides 
+  					<lb ed="#L"/>quandoque accipitur pro sponsione <ref><title ref="#Itim">I Timotheus</title> 5</ref> 
+  					<lb ed="#L"/><quote ana="#Itim5_12">Primam fidem irritam fecerunt</quote>. Quandoque pro 
+  					<lb ed="#L"/>fidelitate. <ref><title>Ieremia</title> septimo</ref>: <quote ana="#ier7_28">Periit fides, &amp; ablata 
+  						<lb ed="#L"/>est de ore eorum</quote>. Quandoque dicitur conscientia 
+  					<lb ed="#L"/>de faciendo vel non faciendo. <title ref="#rom">Romanorum</title> deci<lb ed="#L"/>moquarto: 
+  					<quote ana="rom14_23">omne quod non est ex fide, pecca<lb ed="#L"/>tum 
+  						est.</quote> Glossa, contra conscientiam. Quando<lb ed="#L"/>que 
+  					dicitur generaliter assensus conclusionis ac<lb ed="#L"/>ceptus 
+  					per rationem probabilem, secundum quod 
+  					<lb ed="#L"/>argumentum dicitur ratio rei dubiae faciens fidem. 
+  					<lb ed="#L"/>Quandoque dicitur cognitio patriae. <ref><title ref="#rom">Romanorum</title> 
+  						primo</ref>: <quote ana="#rom1_17">Iustitia Dei in eo, scilicet Evangelio, reve<lb ed="#L"/>latur 
+  					ex fide in fidem</quote>. Glossa, ex fide spei in fidem 
+  					<lb ed="#L"/>spei. Et dicitur fides, quia fidentissima &amp; certis<lb ed="#L"/>sima 
+  					est, ut inquit <name ref="#Bonaventure">Bonaventura</name>. Quandoque di<lb ed="#L"/>citur 
+  					symbolum fide (quod creditur) vel pro ob<lb ed="#L"/>iecto 
+  					fidei. Unde <name ref="#Athanasius">Athanasius</name>: Haec est fides catholi<lb ed="#L"/>ca, 
+  					etc. Quandoque dicitur sacramentum fidei, sci<lb ed="#L"/>licet 
+  					baptismus. Sic dicit <ref><name ref="#Augustine">Augustinus</name> ad Bonifa<lb ed="#L"/>cium</ref>. 
+  					<quote>Quid est aliud paruulos habere fidem, nisi fi<lb ed="#L"/>dei 
+  						sacramentum</quote>. Quandoque fides dicitur habi<lb ed="#L"/>tus 
+  					informis. <ref><title ref="#iac">Iacobi</title> secundo</ref>: <quote ana="#iac2_26">Sine operibus fides 
+  						<lb ed="#L"/>mortua est</quote>: &amp; <quote ana="#iac2_19">daemones credunt &amp; contremiscunt</quote>. 
+  					<lb ed="#L"/>Quandoque dicitur habitus charitate formatus, 
+  					<lb ed="#L"/><ref><title ref="#rom">Romanorum</title> primo</ref>: <quote ana="#rom1_17">Iustus ex fide vivit</quote>: Et <ref><title ref="#hab">Aba<cb ed="#B"/><lb ed="#L"/>cuc</title> 
+  						2</ref>. <quote ana="#hab2_4">Iustus in sua fide vivit</quote>. Quandoque capitur 
+  					<lb ed="#L"/>pro actu credendi. <ref><title ref="#rom">Romanos</title> 10</ref>. <quote ana="#rom10_17">Fides ex auditu est.</quote> 
+  					<lb ed="#L"/>Et <name ref="#Augustine">Augustinus</name>: <quote>Fides est crede quae non vides</quote>. 
+  					<lb ed="#L"/>Harum tamen acceptionum tres sunt magis in usu 
+  					<lb ed="#L"/>communi. Nam fides aliquando accipitur pro actu, 
+  					<lb ed="#L"/>quandoque pro habitu, quandoque pro obiecto. 
+  					<lb ed="#L"/>Pro actu est assensus veritatis revelatae. Pro ha<lb ed="#L"/>bitu 
+  					est habitus ex huiusmodi assensibus frequen<lb ed="#L"/>tatis 
+  					acquisitus, vel immediate a Deo infusus, incli<lb ed="#L"/>nans 
+  					in intellectum ad assentiendum veritatibus 
+  					<lb ed="#L"/>revelatis. Pro obiecto est veritas credita. aut res 
+  					<lb ed="#L"/>per ipsum significata. De primo dicitur: <quote>Fides ex 
+  						<lb ed="#L"/>auditu est.</quote> Auditus per verbum Dei. De secun<lb ed="#L"/>do, 
+  					<ref><title ref="#hebr">Hebraeos</title> undecimo</ref>: <quote ana="#hebr11_6">Sine fide impossibile est pla<lb ed="#L"/>cere 
+  					deo</quote>: quod de habituali intelligendum est. 
+  					<lb ed="#L"/>De tertio, <ref><title ref="#Itim">I Timotheus</title> quarto</ref>: <quote ana="#Itim4_6">Enutritus verbis fi<lb ed="#L"/>dei</quote>, 
+  					id est veritatum credendarum.
+  					
+  					
+  					
+  					</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>
